@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY.AirQ </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="wwwstyle.css">
+    
+
+</head>
+<header class="header">
+   <a href="#home">
+   <img src="icon.png" width="80" height="70" alt="AQI">
+</a>
+
+<nav class="navbar">
+<a href="#home">Home</a>
+<a href="#realTimeData">AirQ in Malaysia</a>
+<a href="#map">Map</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<div class="icons">
+<div class="fas fa-search" id="search-btn"></div>
+<div class="fas fa-bars" id="menu-btn"></div>
+</div>
+
+<div class="search-form">
+    <input type="search" id="search-box" placeholder="search here...">
+    <label for="search-box" class="fas fa-search"></label>
+ 
+</div>
+
+</header>
+<body>
+
+<section class="home" id="home">
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+
+                <div class="box first" style="background: url(ooo.png) no-repeat;">
+
+                    <div class="content">
+                        <h3>causes of pollution in malaysia</h3>
+
+                        <h1>Transboundary Haze</h1>
+                        <P> This is a recurring issue in Malaysia,
+                            particularly during the dry season between late June and September. 
+                            Haze occurs when smoke from agricultural fires in neighboring Indonesia travels across the border, 
+                            causing air quality to plummet. These fires are often deliberately set to clear land for farming,
+                            and the resulting haze can have serious health consequences for Malaysians.
+                        </P>
+                    
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <div class="box second" style="background: url(1592077.jpg) no-repeat;">
+
+                    <div class="content">
+
+                        
+                        <h1>Impact of Vehicle Emissions</h1>
+                        <P> Traffic congestion is a major problem in Malaysian cities, 
+                            and vehicle emissions are a significant contributor to air pollution. 
+                            The government is taking steps to address this issue, 
+                            such as promoting the use of public transportation and electric vehicles.
+                        </P>
+                        
+                    
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <div class="box third" style="background: url(la-polucion.jpeg) no-repeat;">
+
+                    <div class="content">
+
+                        <h1>Industrial Air Pollution</h1>
+                        <P>Industrial facilities can release a variety of pollutants into the air, including particulate matter, 
+                         nitrogen oxides, and sulfur oxides. These pollutants can cause respiratory problems, heart disease,
+                         and other health problems. 
+                         The Department of Environment (DOE) is responsible for monitoring and regulating industrial air emissions in Malaysia
+                        </P>
+                    
+                    
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <div class="box fourth" style="background: url(protectnature.jpg) no-repeat;">
+
+                    <div class="content">
+
+                        <h3>how to protect our planet?</h3>
+                        <P>Protecting nature requires a collective effort. 
+                            Individuals can adopt sustainable practices like reducing waste, consuming responsibly, and supporting eco-friendly businesses.
+                            Governments can implement stricter environmental regulations, invest in renewable energy, and promote sustainable practices in agriculture and infrastructure. 
+                            Technological advancements like satellite monitoring and eco-tourism can aid conservation efforts.
+                            Finally, market-based solutions such as carbon pricing and Payment for Ecosystem Services can incentivize responsible behavior.
+                            By working together through these various approaches,
+                            we can ensure a healthier planet for all.
+                        </P>
+                    
+                    
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+     
+
+    </div>
+
+</section>
+
+<main>
+<section class="realTimeData" id="realTimeData">
+    <h1 class="heading"><span>Air Quality in</span> Malaysia</h1>
+
+    <div class="usAQI">
+        <h3>US AQI</h3>
+        <p>
+            The U.S. AQI is EPA's index for reporting air quality.
+            Think of the AQI as a yardstick that runs from 0 to 500. 
+            The higher the AQI value, the greater the level of air pollution and the greater the health concern. 
+            For example, an AQI value of 50 or below represents good air quality, while an AQI value over 300 represents hazardous air quality.
+        </p>
+
+        <div>
+            Good
+            0-50
+        </div>
+
+        <div>
+            Moderate
+            51-100
+        </div>
+
+        <div>
+            Unhealthy for Sensitive Groups
+            101-150
+        </div>
+
+        <div>
+            Unhealthy
+            151-200
+        </div>
+
+        <div>
+            Very Unhealthy
+            201-300
+        </div>
+
+        <div>
+            Hazardous
+            301+
+        </div>
+    </div>
+
+    <div class="pm25">
+
+        <h3>PM2.5</h3>
+        <p>
+            Fine particulate matter (PM2.5) is an air pollutant that is a concern for people's health when levels in air are high. 
+            PM2.5 are tiny particles in the air that reduce visibility and cause the air to appear hazy when levels are elevated. 
+        </p>
+
+        <div>
+            Good
+            0-12.0    
+        </div>
+
+        <div>
+            Moderate
+            12.1-35.4
+        </div>
+
+        <div>
+            Unhealthy for Sensitive Groups
+            35.5-55.4
+        </div>
+
+        <div>
+            Unhealthy
+            55.5-150.4
+        </div>
+
+        <div>
+            Very Unhealthy
+            150.5-250.4
+        </div>
+
+        <div>
+            Hazardous
+            301+
+        </div>
+
+    </div>
+
+    <div class="box">
+        <div name="airvisual_widget" key="6464706624417ff8bb43fa9a"></div>
+
+        <div name="airvisual_widget" key="64647174cc898c437a0c70f8"></div>
+
+        <div name="airvisual_widget" key="646473447c22e689ee5c2c6a"></div>
+    
+        <div name="airvisual_widget" key="6464d456cfa1726dd1fdf391"></div>
+    
+        <div name="airvisual_widget" key="6464d4b4692aabd67e01b8f1"></div>
+    
+        <div name="airvisual_widget" key="6464d56487f5208267b4972e"></div>
+    
+        <div name="airvisual_widget" key="6464d5ced7860f1c0898544c"></div>
+    
+        <div name="airvisual_widget" key="6464d615d7860f1c089859c8"></div>
+    
+        <div name="airvisual_widget" key="6464d659d7860f1c08986140"></div>
+    
+        <div name="airvisual_widget" key="6464d699cfa1726dd1fe2b77"></div>
+
+        <div name="airvisual_widget" key="6464d79ccfa1726dd1fe51d6"></div>
+    
+        <div name="airvisual_widget" key="6464d7d47f5f38b8bfb24d3e"></div>
+
+        <div name="airvisual_widget" key="6464d80f2e9104a849dd7fd7"></div>
+
+        <div name="airvisual_widget" key="6464dbbc87f5208267b55f67"></div>
+    
+        <div name="airvisual_widget" key="6464dbfb7f5f38b8bfb2ce7c"></div>
+    
+        <div name="airvisual_widget" key="6464dc42d7860f1c08992137"></div>
+    </div>
+</section>
+</main>
+
+
+<section class="map" id="map">
+    <iframe
+    width="600"
+    height="400"
+    frameborder="0"
+    scrolling="no"
+    src="https://aqicn.org/map/malaysia/" frameborder="0" allowfullscreen>
+</iframe>
+</section>
+
+
+<section class="about" id="about">
+    <h1 class="heading"> <span>about</span> us </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="about.jpeg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>what amkes our website special?</h3>
+            <p>MY.AirQ is more than just an air quality website - 
+               it's a community resource empowering you with the most accurate local data and user-friendly tools.
+               We combine expert analysis with a commitment to clean air for all,
+               fostering collaboration and inspiring action for a healthier planet.
+            </p>
+        </div>
+    </div>
+</section>    
+
+<section class="contact" id="contact">
+
+ <h1 class="heading"> <span>contact</span> us </h1>
+
+ <div class="row">
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15331.
+    631340627111!2d102.28572457489435!3d2.2560279902935765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+    1!3m3!1m2!1s0x31d1e56b9710cf4b%3A0x66b6b12b75469278!2sMultimedia%20University!5e0!3m2!1sen!2smy!4v1718746120974!5m2!1sen!2smy"
+     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <form action="" >
+        <h3>get in touch</h3> 
+        <div class="inputBox"> 
+            <span class="fas fa-user"></span> 
+            <input type="text" placeholder="name">
+        </div> 
+        
+        <div class="inputBox"> 
+            <span class="fas fa-envelope"></span> 
+            <input type="email" placeholder="email">
+        </div> 
+        <div class="inputBox"> 
+            <span class="fas fa-phone"></span> 
+            <input type="number" placeholder="number">
+        </div> 
+        <input type="submit" value="contact now" class="btn"> 
+    </form>
+ </div>
+
+</section>    
+
+<section class="footer">
+    <div class="credit">@created by <span>mr. abdo saihi</span> | all rights reserved.
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="wwwscript.js"></script>
+<script src="swiper.js"></script>
+<script type="text/javascript" src="https://widget.iqair.com/script/widget_v3.0.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
