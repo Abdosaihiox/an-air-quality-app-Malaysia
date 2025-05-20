@@ -1,58 +1,50 @@
-# 🌏 MY.AirQ – Malaysia Air Quality Awareness Website
+# 🌬️ MY.AirQ – Malaysia Air Quality Awareness Web App
 
-A responsive, educational web application designed to raise awareness about air pollution in Malaysia by providing real-time Air Quality Index (AQI) data, pollution sources, and health insights.
-
----
-
-## 🧠 About the Project
-
-**MY.AirQ** is a user-friendly platform that educates the public about air pollution and empowers them with real-time air quality data. Developed as part of the TWT2231 – Web Techniques and Applications course at Multimedia University (MMU), this project tackles the growing environmental concern of air pollution using a web-based solution.
+A responsive and informative web application built to raise awareness about air pollution in Malaysia. MY.AirQ delivers real-time air quality data, educational insights, and interactive tools to help users make healthier, more informed decisions.
 
 ---
 
-## 🎯 Key Features
+## 📌 Project Overview
 
-- 📡 **Live AQI Data:** Real-time air quality readings (PM2.5, PM10, NO₂, SO₂, CO, O₃) from major Malaysian cities  
-- 🗺️ **Interactive Map:** Real-time air pollution map with rankings sourced from IQAir  
-- 🧾 **Pollution Education:** Clear breakdown of pollutants and their health effects  
-- 🌐 **Southeast Asia Comparison:** Air quality insights from neighboring countries  
-- 📱 **Fully Responsive UI:** Works across desktop and mobile devices  
-- 📋 **Contact Form & Validation:** A secure way for users to reach out and get involved  
-- 🧠 **Awareness Content:** Causes, impacts, and solutions for air pollution
+**MY.AirQ** is a modern web application that presents air pollution data in an accessible, visually engaging format. It educates the public on pollutants like PM2.5, PM10, CO, SO₂, and NO₂, and empowers users to monitor air quality in their region or while traveling in Southeast Asia.
+
+Whether you're commuting in Kuala Lumpur or planning a trip to Langkawi, MY.AirQ makes it easier to track air quality and understand what it means for your health.
+
+---
+
+## 🚀 Features
+
+- 📊 Real-time AQI and pollutant readings by city
+- 🗺️ Interactive map with Southeast Asia air quality comparison
+- 🧠 Educational insights about causes, effects, and solutions to air pollution
+- ✅ Contact form with validation
+- 🌐 Fully responsive and mobile-friendly layout
+- 🔎 Searchable interface with smooth navigation
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Category          | Technologies Used |
-|------------------|-------------------|
-| **Frontend**      | HTML, CSS, JavaScript |
-| **JS Libraries**  | Swiper.js, FontAwesome |
-| **Data Integration** | IQAir Widget, AirVisual Embeds |
-| **UI/UX Design**  | Custom CSS, Responsive Layouts |
-| **Validation**    | HTML5 Form Validation |
-| **Hosting**       | [GitHub Pages](https://pages.github.com/) (optional) |
+| Layer         | Technology            |
+|--------------|------------------------|
+| Frontend     | HTML5, CSS3, JavaScript |
+| UI/UX Design | Custom CSS, Swiper.js, FontAwesome |
+| Data Embed   | IQAir Widgets, Interactive Map |
+| Form Logic   | HTML5 Form Validation |
+| Deployment   | GitHub Pages (optional) |
 
 ---
 
-## 📷 Screenshots
-
-- **Homepage** with navigation, hero slider, and awareness sections  
-- **AirQ in Malaysia**: Live AQI + pollutant breakdown  
-- **Map View**: Interactive map for real-time air monitoring  
-- **About Section**: Project goals and vision  
-- **Contact Form** with validation  
-- **Mobile-Optimized Layout**: Seamless on all screen sizes
-
----
-
-## 📦 Project Structure
+## 📂 Folder Structure
 
 ```bash
-📁 MY.AirQ/
+MY.AirQ/
 ├── index.html
 ├── wwwstyle.css
 ├── wwwscript.js
 ├── swiper.js
-├── assets/
+├── images/
+│   ├── about.jpeg
 │   ├── icon.png
+│   ├── ooo.png
+│   └── ...
